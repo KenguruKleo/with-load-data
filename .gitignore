@@ -1,0 +1,6 @@
+.idea
+.ideaDataSources
+.DS_Store
+.settings
+/build
+.coverage
