@@ -1,11 +1,8 @@
 {
   "name": "with-load-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Send redux action to load data, and then wait loading component until check function return true",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "react": ">=15"
   },
