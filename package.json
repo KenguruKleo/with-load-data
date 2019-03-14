@@ -1,0 +1,22 @@
+{
+  "name": "with-load-data",
+  "version": "1.0.0",
+  "description": "Send redux action to load data, and then wait loading component until check function return true",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenguruKleo/with-load-data.git"
+  },
+  "keywords": [
+    "HOC"
+  ],
+  "author": "Konstantin Yemelianov",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/KenguruKleo/with-load-data/issues"
+  },
+  "homepage": "https://github.com/KenguruKleo/with-load-data#readme"
+}
