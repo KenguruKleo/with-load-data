@@ -20,6 +20,8 @@ module.exports = {
     ]
   },
   externals: {
-    'react': 'commonjs react'
+    'react': 'commonjs react',
+    'prop-types': 'commonjs prop-types',
+    'react-redux': 'commonjs react-redux'
   }
 };
