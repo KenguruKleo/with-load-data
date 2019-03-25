@@ -10,7 +10,7 @@ Usage:
 ```
 
 - HOC connect component to Redux `store`
-- `actionLoadData` will bind to redux dispatch, so it can be regular Redux action
+- `actionLoadData({ componentProps })` will bind to redux dispatch, so it can be regular Redux action and pass component props to action
 - `checkIsDataLoaded` receive `state` as a param, so we have access to redux state
 
 

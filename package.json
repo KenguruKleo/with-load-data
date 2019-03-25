@@ -1,6 +1,6 @@
 {
   "name": "with-load-data",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Send redux action to load data, and then wait loading component until check function return true",
   "main": "dist/index.js",
   "files": [

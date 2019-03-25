@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 const withLoadData = ({ actionLoadData, checkIsDataLoaded }) => WrappedComponent => {
     class HOCComponent extends Component {
         componentDidMount() {
-            this.props.actionLoadData();
+            this.props.actionLoadData({ componentProps: this.props });
         }
 
         render() {
